@@ -1,6 +1,5 @@
-from pandas import read_csv, DataFrame, concat
-from matplotlib import pyplot
-from panels import SolarPanel, SolarProfile
+from pandas import read_csv
+from code.panels import SolarPanel, SolarProfile
 
 
 # Generates a csv with all the power, open volt, and short circuit info for the solar panel input

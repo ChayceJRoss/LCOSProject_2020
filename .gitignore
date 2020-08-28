@@ -1,4 +1,6 @@
-/household_power_consumption.txt
-/household_power_consumption.csv
+/datasets/household_power_consumption.txt
+/datasets/household_power_consumption.csv
 venv/
 .idea/
+datasets/household_power_consumption.txt
+datasets/household_power_consumption.csv
