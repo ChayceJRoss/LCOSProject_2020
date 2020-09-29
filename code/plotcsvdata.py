@@ -63,6 +63,6 @@ def plot_over_days(file_in_name: str, year: str, month: str, days: [int], y_axis
     pyplot.show()
 
 
-plot_over_years('solar_power_2005.csv', ['2005'], 'Power')
+plot_over_years('datasets/solar_power_2005.csv', ['2005'], 'Power')
 # plot_over_months('solar_power_2005.csv', '2005', [x for x in range(1, 13)], 'Power')
 # plot_over_days('solar_power_2005.csv', '2005', '02', [x for x in range(1, 20)], 'Power')

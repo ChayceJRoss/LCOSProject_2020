@@ -1,5 +1,5 @@
 from pandas import read_csv
-from code.panels import SolarPanel, SolarProfile
+from panels import SolarPanel, SolarProfile
 
 
 # Generates a csv with all the power, open volt, and short circuit info for the solar panel input
@@ -31,7 +31,7 @@ def generate_power_output(file_in_name: str, file_out_name: str, year: str, sola
 panel_one = SolarPanel("CS3U", pmax=355, vmp=39.4, imp=9.02, voc=46.8, isc=9.59, efficiency=0.1789, op_temp=40,
                        p_coeff=-0.37, v_coeff=-0.0029, i_coeff=0.0005, notc=42, n_s=1, n_p=1)
 
-generate_power_output('solar_data_2004_2006.csv', 'solar_power_2005.csv', '2005', panel_one)
+generate_power_output('datasets/solar_data_2004_2006.csv', 'datasets/solar_power_2005.csv', '2005', panel_one)
 
 
 

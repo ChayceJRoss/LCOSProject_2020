@@ -4,3 +4,4 @@ venv/
 .idea/
 datasets/household_power_consumption.txt
 datasets/household_power_consumption.csv
+lcosEnv/
